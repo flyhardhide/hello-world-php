@@ -4,8 +4,10 @@
     print(date('Y/m/d')."<br />");
     $ip=$_SERVER['REMOTE_ADDR'];
     $ip2=$_SERVER['HTTP_X_FORWARDED_FOR'];
+    $ip3=$_SERVER['HTTP_X_CLUSTER_CLIENT_IP'];
+    $ip4=$_SERVER['HTTP_CLIENT_IP'];
 print("Your IP is: ".$ip);
-    print("<br />Or : ".$ip2);
+    print("<br />Or : ".$ip2." : ">$ip3." : ".$ip4);
 ?>
   </body>
 </html>
