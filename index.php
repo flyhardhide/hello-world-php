@@ -1,7 +1,7 @@
 <html><head><title>TEST PHP CODE</title></head>
   <body>
 <?php 
-    print(date('Y/m/d')."<br />");
+    print(date("Y/m/d H:i:s")."<br />");
     $ip=$_SERVER['REMOTE_ADDR'];
     $ip2=$_SERVER['HTTP_X_FORWARDED_FOR'];
     $ip3=$_SERVER['HTTP_X_CLUSTER_CLIENT_IP'];
