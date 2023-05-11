@@ -7,7 +7,7 @@
     $ip3=$_SERVER['HTTP_X_CLUSTER_CLIENT_IP'];
     $ip4=$_SERVER['HTTP_CLIENT_IP'];
 print("Your IP is: ".$ip);
-    print("<br />Or : ".$ip2." : ">$ip3." : ".$ip4);
+    print("<br />Or : ".$ip2."<br />".$ip3."<br />".$ip4);
 ?>
   </body>
 </html>
