@@ -1,4 +1,4 @@
-<html><head><title>TEST PHP CODE</title></head>
+<html><head><title>TEST PHP CODE 2</title></head>
   <body>
 <?php 
     print(date("Y/m/d H:i:s")."<br />");
