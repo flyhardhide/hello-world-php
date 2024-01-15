@@ -10,5 +10,6 @@
 print("Your IP is: ".$ip1);
     print("<br />Or HTTP_X_FORWORDED_FOR: ".$ip2."<br />Or HTTP_X_CLUSTER_CLIENT_IP: ".$ip3."<br />Or HTTP_CLIENT_IP: ".$ip4."<br />Or HTTP_INCAP_CLIENT_IP: ".$ip5);
 ?>
+print("<hr/>");
   </body>
 </html>
